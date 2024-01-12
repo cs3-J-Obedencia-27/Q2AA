@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PSHS Caraga</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-image: url('campus.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        nav {
+            width: 100%;
+            height: 49px;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+            position: fixed;
+            z-index: 1;
+        }
+
+        .nav-list {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+        }
+
+        .yeah {
+            padding: 6px;
+            color: #000000;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .navButton {
+            padding: 15px;
+            color: #000000;
+            font-size: 15px;
+        }
+
+        .headuh {
+            background-color: #3498db;
+            color: #000;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 60px;
+            font-family: Times New Roman;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
+            margin-left: 30px;
+        }
+
+        .text {
+            text-align: left;
+        }
+
+        .text p {
+            margin: 0;
+            line-height: 1.2;
+            font-weight: bold;
+        }
+
+        .container {
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .pshs {
+            padding: 0px;
+            margin-left: 425px;
+            color: #000000;
+            font-size: 18px;
+            font-family: Times New Roman;
+            font-weight: bold;
+            text-indent: 0px;
+            width: 650px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .navButton {
+            padding: 12px 24px;
+            margin-right: 20px;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block;
+        }
+
+        .navButton a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .navButton:hover {
+            background-color: #ccc;
+        }
+
+        .logo img:hover {
+            animation: swirl 2s linear infinite;
+        }
+
+        @keyframes swirl {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .container img {
+            width: 500px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            margin-right: 20px;
+            margin-top: 40px;
+            transition: transform 0.5s ease;
+        }
+
+        .container img:hover {
+            transform: scale(1.1);
+        }
+
+        .image-group {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .bre,
+        .jel,
+        .thena {
+            text-align: center;
+        }
+
+        .bre img,
+        .jel img,
+        .thena img {
+			margin-top:50px;
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            margin-bottom: 20px;
+            transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+        }
+
+        .bre img:hover,
+        .jel img:hover,
+        .thena img:hover {
+            animation: swirlImage 0.3s linear;
+        }
+
+        @keyframes swirlImage {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .campustext {
+            color: #000000;
+            font-size: 18px;
+            font-family: Times New Roman;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        
+		.directortext {
+            padding: 0px;
+            color: #000000;
+            font-size: 25px;
+            font-family: Times New Roman;
+            font-weight: bold;
+            text-indent: 0px;
+            width: 650px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+			margin-bottom: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="yeah">PISAYCRC</li>
+                <li class="navButton"><a href="index.html">Home</a></li>
+                <li class="navButton"><a href="aboutus.html">About us</a></li>
+                <li class="navButton"><a href="academicprogram.html">Academic Program</a></li>
+                <li class="navButton"><a href="admissions.html">Admissions</a></li>
+                <li class="navButton"><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="headuh">
+        <div class="logo">
+            <img src="pshs_logo.png" alt="PSHS Logo">
+            <div class="text">
+                <p>Republic of the Philippines</p>
+                <p>Department of Science and Technology</p>
+                <p>PHILIPPINE SCIENCE HIGH SCHOOL - CARAGA REGION CAMPUS</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="campuss.png" width="500">
+    </div>
+
+    <div class="pshs">
+        <p>The Philippine Science High School - Caraga Region Campus, a special school in Caraga known for the phenomenal education of science and innovation. Established to nurture or significantly improve the brightest minds around Caraga. PSHS-CRC plays a crucial role in shaping the future of young scientists, engineers, and leaders.</p>
+    </div>
+
+    <div class="image-group">
+        <div class="bre">
+            <img src="bredu30.png" width="300">
+            <div class="campustext">
+                <p>BRERIGO BRETERTE,</p>
+                <p>ROA CAMPUS DIRECTOR</p>
+            </div>
+        </div>
+
+        <div class="jel">
+            <img src="bbmjelian.png" width="300">
+            <div class="campustext">
+                <p>JELONGLONG MARKUS,</p>
+                <p>BBM CAMPUS DIRECTOR</p>
+            </div>
+        </div>
+
+        <div class="thena">
+            <img src="mannythena.png" width="300">
+            <div class="campustext">
+                <p>MANNTHENA PACQUIAO,</p>
+                <p>BBQ CAMPUS DIRECTOR</p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="directortext">
+		<p>These individuals have played a pivotal role in shaping the system. Kudos to their invaluable contributions!</p>
+	</div>
+</body>
+</html>

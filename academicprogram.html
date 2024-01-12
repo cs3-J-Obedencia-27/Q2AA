@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Programs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-image: url(2.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        nav {
+            width: 100%;
+            height: 49px;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+            position: fixed;
+            z-index: 1;
+        }
+
+        .nav-list {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+        }
+
+        .yeah {
+            padding: 6px;
+            color: #000000;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .navButton {
+            padding: 15px;
+            color: #000000;
+            font-size: 15px;
+        }
+
+        .headuh {
+            background-color: #3498db;
+            color: #000;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 60px;
+            font-family: Times New Roman;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
+            margin-left: 30px;
+        }
+
+        .text {
+            text-align: left;
+        }
+
+        .text p {
+            margin: 0;
+            line-height: 1.2;
+            font-weight: bold;
+        }
+
+        .container {
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .navButton {
+            padding: 12px 24px;
+            margin-right: 20px;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block;
+        }
+
+        .navButton a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .navButton:hover {
+            background-color: #ccc;
+        }
+
+        .logo img:hover {
+            animation: swirl 2s linear infinite;
+        }
+
+        .lahatlahat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #000;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            margin: 20px;
+            max-width: 600px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes swirl {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="yeah">PISAYCRC</li>
+                <li class="navButton"><a href="index.html">Home</a></li>
+                <li class="navButton"><a href="aboutus.html">About us</a></li>
+                <li class="navButton"><a href="academicprogram.html">Academic Program</a></li>
+                <li class="navButton"><a href="admissions.html">Admissions</a></li>
+                <li class="navButton"><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="headuh">
+        <div class="logo">
+            <img src="pshs_logo.png" alt="PSHS Logo">
+            <div class="text">
+                <p>Republic of the Philippines</p>
+                <p>Department of Science and Technology</p>
+                <p>PHILIPPINE SCIENCE HIGH SCHOOL - CARAGA REGION CAMPUS</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="lahatlahat">
+        <div class="section">
+            <h1>Academic Programs</h1>
+            <div class="text">
+                <p>One thing about PSHS-CRC is that it lies in its comprehensive academic programs. The curriculum challenges the students' intellect, developing more appreciation on sciences. The curriculum is designed and is ensured to keep an insightful education for the students.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h1>Extracurricular Activities</h1>
+            <div class="text">
+                <p>Acknowledging the significance of integrated or holistic education, extracurricular activities are very important. Students are encouraged to participate in activities where their true potential can be exhibited and explore their interests in various fields such as physics, robotics, or computer programming. Engaging in such activities enhances not only academic skills but also critical thinking, creativity, leadership, and teamwork.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h1>Research and Innovations</h1>
+            <div class="text">
+                <p>Another one of the distinguishing features of PSHS-CRC is the commitment to research and innovation. The students actively take part in research projects, working with faculty members or research experts.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h1>Community Outreach</h1>
+            <div class="text">
+                <p>PSHS-CRC is proud of its community service. Students participate in outreach activities where they learn to use their voice to speak about societal concerns, while also using their scientific knowledge to analyze real-world problems.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h1>Success Stories</h1>
+            <div class="text">
+                <p>PSHS-CRC has produced numerous successful stories. Graduates have excelled in their fields internationally and globally, having a bright future ahead of them. Many PSHS-CRC alumni have become trailblazers in science, technology, engineering, and mathematics (STEM), contributing significantly to the advancement of knowledge and innovation.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
